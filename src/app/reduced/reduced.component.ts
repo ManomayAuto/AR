@@ -19,7 +19,7 @@ export class ReducedComponent implements OnInit {
   @ViewChild("MatSort3",{static:true}) MatSort3: MatSort;
   filter:any;
 
-  displayedColumns: string[] = ['ClientName', 'ClientId','PolicyNum','PremDue','EquityDate','DTE','popup','DateCompleted'];
+  displayedColumns: string[] = ['ClientId','ClientName', 'PolicyNum','PremDue','EquityDate','DTE','popup','DateCompleted'];
   allSource;
   dataSource;
   Completed;

@@ -48,7 +48,7 @@
       </mat-form-field><br>
 
       <mat-form-field class="example-full-width">
-        <input matInput maxlength="250" name="note" formControlName="note" placeholder="Note" style="height: 50px;width: 200px;" required>
+        <textarea matInput maxlength="250" name="note" formControlName="note" placeholder="Note" style="height: 50px;width: 200px;" required></textarea>
         <!-- <a style="font-size: 10px;"> (minium 2 characters)</a> -->
         <mat-error *ngIf=" ClientForm.get('note').hasError('required')">
           Please enter the details of the correspondence.<br>

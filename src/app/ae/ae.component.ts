@@ -26,7 +26,7 @@ export class AEComponent implements OnInit {
 
   filter:any;
 
-  displayedColumns: string[] = ['ClientName', 'ClientId','PolicyNum','PremDue','EquityDate','DTE','Followups','LastFollowUp','ExpectedDate','DateCompleted','popup'];
+  displayedColumns: string[] = ['ClientId','ClientName', 'PolicyNum','PremDue','EquityDate','DTE','Followups','LastFollowUp','ExpectedDate','DateCompleted','popup'];
   allSource;
   CompleteSource;
   dataSource;

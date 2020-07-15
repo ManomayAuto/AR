@@ -20,7 +20,7 @@ export class CallComponent implements OnInit {
   @ViewChild('pen', { read: MatSort, static: true }) sort1: MatSort;
   filter:any;
 
-  displayedColumns: string[] = ['ClientName','ClientId', 'PolicyNum','PremDue','EquityDate','DTE','popup','DateCompleted'];
+  displayedColumns: string[] = ['ClientId','ClientName', 'PolicyNum','PremDue','EquityDate','DTE','popup','DateCompleted'];
   allSource;
   // dataSource;
   FollowDone;
